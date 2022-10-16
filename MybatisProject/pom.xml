@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>MybatisProject</groupId>
+  <artifactId>MybatisProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<!-- H2 Driver -->
+  	<dependency>
+  		<groupId>com.h2database</groupId>
+  		<artifactId>h2</artifactId>
+  		<version>1.4.192</version>
+  	</dependency>
+  	
+  	<!-- Mybatis -->
+  	<dependency>
+  		<groupId>org.mybatis</groupId>
+  		<artifactId>mybatis</artifactId>
+  		<version>3.3.1</version>
+  	</dependency>
+  	
+  	<!-- Ibatis -->
+  	<dependency>
+  		<groupId>org.apache.ibatis</groupId>
+  		<artifactId>ibatis-core</artifactId>
+  		<version>3.0</version>
+  	</dependency>
+  </dependencies>
+  
+</project>
